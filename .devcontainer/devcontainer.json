@@ -8,6 +8,11 @@
 		"ghcr.io/devcontainers/features/git-lfs:1": {}
 	},
 
+	// /usr/local/lib/python3.7/site-packages
+	"mounts": [
+		//"source=${localEnv:HOME}/code/vf-aws-ds-tools-base-classes/dstools_baseclasses,target=/host/site-packages/dstools_baseclasses,type=bind,consistency=cached"		
+	],
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
