@@ -1,6 +1,4 @@
-# galai
-
-Galactica Language Model Experimentation
+# Galactica Language Model Experimentation
 
 ## Clonining the Code
 
