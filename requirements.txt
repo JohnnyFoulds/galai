@@ -3,3 +3,5 @@
 
 galai==1.1.2
 ipywidgets==8.0.2
+
+gradio==3.14.0
