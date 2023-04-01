@@ -18,3 +18,9 @@ cd galai
 # launce vs code and use the dev container
 code .
 ```
+
+## References
+
+## [GALPACA 30B (large)](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-30b)
+
+The GALPACA models are trained by fine-tuning pre-trained GALACTICA models on the Alpaca dataset. GALACTICA models were trained on 106 billion tokens of open-access scientific text and data, including papers, textbooks, scientific websites, encyclopedias, and more. Fine-tuning the base GALACTICA models on the 52k instruction-response pairs in the Alpaca dataset allows users to query the GALPACA models in an instruct-response fashion.
