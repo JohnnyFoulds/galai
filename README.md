@@ -1,4 +1,4 @@
-# Galactica Language Model Experimentation
+conda # Galactica Language Model Experimentation
 
 ## Clonining the Code
 
