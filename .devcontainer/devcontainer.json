@@ -1,6 +1,7 @@
 {
 	"name": "Python 3",
-	"image": "mcr.microsoft.com/devcontainers/python:3.7-bullseye",
+	//"image": "mcr.microsoft.com/devcontainers/python:3.7-bullseye",
+	"image": "tensorflow/tensorflow:2.11.0-gpu",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "lts"
@@ -11,7 +12,8 @@
 	// /usr/local/lib/python3.7/site-packages
 	"mounts": [
 		//"source=${localEnv:HOME}/code/vf-aws-ds-tools-base-classes/dstools_baseclasses,target=/host/site-packages/dstools_baseclasses,type=bind,consistency=cached"		
-		"source=/home/johnny/swan/huggingface/cache,target=/home/vscode/.cache/huggingface/,type=bind,consistency=cached"		
+		"source=/home/johnny/swan/huggingface/cache,target=/home/vscode/.cache/huggingface/,type=bind,consistency=cached",
+		"source=/home/johnny/swan/huggingface/cache,target=/root/.cache/huggingface/,type=bind,consistency=cached"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
